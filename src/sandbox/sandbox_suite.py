@@ -1,3 +1,5 @@
+# Sandbox harness: isolated HOME, time limit, peak RSS sampling, disk size, METRIC parsing, one JSON line per attempt.
+# Original harness script, copied unmodified apart from this header. Comments inside may be in Portuguese.
 """Suite de testes de instalacao/uso em sandbox descartavel (CPU). Cada teste roda com HOME isolado, timeout e medicao de tempo, RSS de pico e disco.
 Saida: out/sandbox/results.jsonl (1 linha por teste) + logs por teste. Linhas 'METRIC k=v' impressas pelo teste viram metricas estruturadas.
 uso: python sandbox_suite.py [ids...]"""

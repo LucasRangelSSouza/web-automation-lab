@@ -1,4 +1,6 @@
 #!/bin/bash
+# Session wrapper that runs the suite on a small CPU instance.
+# Original harness script, copied unmodified apart from this header. Comments inside may be in Portuguese.
 cd /workspace/eco
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq >/dev/null 2>&1; apt-get install -y -qq python3-pip python3-venv >/dev/null 2>&1

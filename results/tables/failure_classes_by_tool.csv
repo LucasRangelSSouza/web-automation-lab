@@ -1,0 +1,5 @@
+tool_id,module not installed,other error,pip blocked by the system Python,python command missing in the sandbox
+playwright,0,0,2,2
+crawl4ai,0,0,2,2
+obscura,0,0,0,2
+camoufox_detect,2,2,0,2
